@@ -123,6 +123,6 @@ After any change under `.cursor/`, `python scripts/update_bundle.py` must be run
 
 ## Sources
 
-- bimstack (MIT, © 2026 GovTech Barbados Limited and contributors): https://github.com/govtech-bb/bimstack. Model for the research, mapping and prototyping skills. See [../write-discover-skill/bimstack-map.md](../write-discover-skill/bimstack-map.md).
 - GOV.UK Service Manual, "Start by learning user needs": https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs
 - Kate Tarling, outcomes work at the Home Office (2017). `TODO(author):` add the exact link you want cited.
+- Research, mapping and prototyping craft principles drawn from service-design and user-research practice. See [../write-discover-skill/method-notes.md](../write-discover-skill/method-notes.md) for the suggested skills.

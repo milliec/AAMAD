@@ -21,7 +21,7 @@ Read [reference.md](reference.md) before drafting. It holds the agreed decisions
 | 1 | ID dictionary (one entry per ID family) | [write-id-dictionary-entry](../write-id-dictionary-entry/SKILL.md) |
 | 2 | Rule files (`.mdc`) | [write-discover-rule](../write-discover-rule/SKILL.md) |
 | 3 | Templates for Discover artefacts | [write-discover-template](../write-discover-template/SKILL.md) |
-| 4 | Discover skills, adapted from bimstack | [write-discover-skill](../write-discover-skill/SKILL.md) |
+| 4 | Discover skills (research, mapping, prototyping methods) | [write-discover-skill](../write-discover-skill/SKILL.md) |
 | 5 | Personas (six-part anatomy) | [write-persona](../write-persona/SKILL.md) |
 | 6 | Wiring: crew overview, epics index, `aamad.config.yml`, go/stop gate as a required PRD input, phase-folder rename (see reference.md) | `TODO(author):` no skill yet; do by hand with the agent |
 | 7 | Dry run on a small real problem; check one story traces back to a quote | `TODO(author):` no skill yet |
@@ -41,4 +41,4 @@ Work in order. A later step may cite only IDs and files that an earlier step has
 
 - Write final Discover artefacts (real needs, outcomes, findings). Those come from real research, written by people.
 - Use phase labels from other methods (alpha, beta, live) or name a specific government standard as a requirement.
-- Copy text from bimstack without crediting it in `NOTICES`.
+- Invent method steps or research practices. Ask the author or use suggested methods from the skills.

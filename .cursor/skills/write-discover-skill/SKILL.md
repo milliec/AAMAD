@@ -2,36 +2,35 @@
 name: write-discover-skill
 description: >-
   Help the author write one Discover skill (.cursor/skills/<name>/SKILL.md)
-  for @user.researcher, @service.designer or @product-mgr, usually by adapting
-  a bimstack skill to the Discover ID model and rules. Build-order step 4. Use
-  when the operator says "adapt bimstack's journey-map", "write the synthesis
-  skill", or "turn this method into a skill".
+  for @user.researcher, @service.designer or @product-mgr. Each skill teaches
+  one research or service-design method. Build-order step 4. Use when the
+  operator says "write the journey-map skill", "write the synthesis skill",
+  or "turn this method into a skill".
 ---
 
 # Write a Discover skill
 
-Step 4 of the Discover build order. A skill is the **method** a persona follows (how to plan research, how to map a journey). Rules say what must be true. Templates hold the output. Read [../discover-authoring/reference.md](../discover-authoring/reference.md) first, then [bimstack-map.md](bimstack-map.md) for what to keep, change and drop from each bimstack skill.
+Step 4 of the Discover build order. A skill is the **method** a persona follows (how to plan research, how to map a journey, how to synthesise needs). Rules say what must be true. Templates hold the output. Read [../discover-authoring/reference.md](../discover-authoring/reference.md) first, then [method-notes.md](method-notes.md) for suggested skills and craft principles to embed.
 
 Follow the AAMAD skill shape (see `.cursor/skills/product-design/SKILL.md`): YAML header with `name` and `description`, a one-line purpose, `Invocation:`, who runs it, numbered steps, and a "Do not" list. Move long detail into a `reference.md` beside it.
 
 ## Ask the author
 
 1. Which skill, and which persona runs it?
-2. Start from a bimstack skill? Which one? (Default: the row in [bimstack-map.md](bimstack-map.md).)
+2. Which suggested skill from [method-notes.md](method-notes.md)? (Or a different method?)
 3. Which template (step 3) does it fill in, and which IDs does it create or cite?
 4. Where must it **stop for a human**? (e.g. waiting for consent records or anonymised transcripts)
 5. What should it refuse to do?
 6. Which command starts it? (e.g. `*plan-research`)
 
-## How to adapt a bimstack skill
+## How to write the skill
 
-1. Read the bimstack `SKILL.md` in full (clone: `git clone https://github.com/govtech-bb/bimstack`). Do not work from memory.
-2. List its steps. For each, mark **keep**, **change** or **drop**, and show the author the list before drafting.
-3. Translate loose citations to IDs: `[P3 interview]` → EV- from S-/P-; `[ASSUMPTION]` → AS-; pain points → PP-; steps → STAGE; opportunities → OP-.
-4. Remove context-specific material: Barbados standards and their numbers, GovBB styling and chrome, alpha/beta/live, MDA (→ provider), citizen (→ user), Mac-specific environment notes, `bimstack:` skill names.
-5. Add the Discover gates the original lacks: consent check before synthesis, anonymised input only, synthetic = rehearsal, prototypes are throwaway.
-6. Keep the useful craft (behaviour over opinion, workarounds, "if this didn't exist", the findings checkpoint, multiple prototypes). Credit it: add a line under "Sources" in the new skill naming the bimstack skill it adapts.
-7. Add or update the bimstack entry in the repo's `NOTICES`.
+1. Start with the method steps from [method-notes.md](method-notes.md) for the chosen skill, or ask the author to describe the method.
+2. List the steps. For each, confirm with the author: **keep**, **change** or **drop**.
+3. Translate loose citations to IDs: interviews → EV- from S-/P-; assumptions → AS-; pain points → PP-; journey steps → STAGE; opportunities → OP-.
+4. Embed craft principles from method-notes.md: behaviour over opinion, workarounds reveal needs, "if this didn't exist", findings checkpoint, multiple prototypes for competing hypotheses.
+5. Add the required Discover gates: consent check before synthesis, anonymised input only, synthetic = rehearsal, prototypes are throwaway, draft-only for consent decisions.
+6. Keep language generic: provider (not MDA), user (not citizen), prototype (not alpha).
 
 ## Draft shape
 
@@ -59,9 +58,6 @@ Stop and wait for: <file>. Do not continue until it exists.
 
 ## Do not
 - …
-
-## Sources
-Adapted from bimstack `<skill>` (MIT, © 2026 GovTech Barbados Limited and contributors).
 ```
 
 ## Check before showing
@@ -74,5 +70,6 @@ Adapted from bimstack `<skill>` (MIT, © 2026 GovTech Barbados Limited and contr
 
 ## Do not
 
-- Copy a bimstack skill wholesale. Adapt, cut and credit.
-- Keep bimstack's links to its own skills or external plugins (`design:…`) that AAMAD does not have.
+- Invent method steps. Ask the author or use the suggested steps from method-notes.md.
+- Skip the human checkpoints (consent, anonymisation, findings review, draft-only decisions).
+- Use upstream framework names or link to skills AAMAD does not have.

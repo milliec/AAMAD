@@ -16,29 +16,29 @@ Follow the shape of existing AAMAD templates (see `.cursor/templates/prd-templat
 
 ## Suggested templates
 
-| Template | Owner | IDs it holds | bimstack model (if any) |
-|---|---|---|---|
-| problem-statement (incl. discovery goal) | @product-mgr | OUT-, AS- | `discovery-kit` §1 |
-| goals-and-measures | @product-mgr | OUT-, M- | none |
-| go-stop-gate (go / pivot / stop) | @product-mgr + operator | cites UN-, OUT-, AS- | `discovery-kit` discovery report |
-| research-plan | @user.researcher | RP- → AS- | `discovery-kit` §3, `research-planning` |
-| screener | @user.researcher | UG- | none (gap) |
-| discussion-guide | @user.researcher | RP- | `research-planning` |
-| consent-notes | @user.researcher (draft), human decides | consent record | `govtech-research-plans` ethics block (Barbados-specific; generalise) |
-| participants-log | human fills | P-, UG-, consent | none (gap) |
-| evidence-log | @user.researcher | EV-, S-, SRC- | `transcript-analysis` |
-| themes (affinity map) | @user.researcher | TH- → EV- | `synthesize-research` step 3 |
-| needs-register | @user.researcher | UN-, PP-, UG- | none (gap) |
-| journey-map | @service.designer | SERVICE, STAGE, PP-, EV- | `journey-map` |
-| service-blueprint | @service.designer | STAGE, EV-, AS- | `service-blueprint` |
-| constraints-and-opportunities | @service.designer | OP- → OUT-, AS- | `ecosystem-map` (partly) |
-| assumptions-register | @product-mgr / @service.designer | AS-, TS- | `brief-to-prototypes` assumptions.md |
-| prototype-test | @service.designer + @user.researcher | TS- → EV-, AS- | `brief-to-prototypes` test-plan, `prototype-iteration` |
+| Template | Owner | IDs it holds |
+|---|---|---|
+| problem-statement (incl. discovery goal) | @product-mgr | OUT-, AS- |
+| goals-and-measures | @product-mgr | OUT-, M- |
+| go-stop-gate (go / pivot / stop) | @product-mgr + operator | cites UN-, OUT-, AS- |
+| research-plan | @user.researcher | RP- → AS- |
+| screener | @user.researcher | UG- |
+| discussion-guide | @user.researcher | RP- |
+| consent-notes | @user.researcher (draft), human decides | consent record |
+| participants-log | human fills | P-, UG-, consent |
+| evidence-log | @user.researcher | EV-, S-, SRC- |
+| themes (affinity map) | @user.researcher | TH- → EV- |
+| needs-register | @user.researcher | UN-, PP-, UG- |
+| journey-map | @service.designer | SERVICE, STAGE, PP-, EV- |
+| service-blueprint | @service.designer | STAGE, EV-, AS- |
+| constraints-and-opportunities | @service.designer | OP- → OUT-, AS- |
+| assumptions-register | @product-mgr / @service.designer | AS-, TS- |
+| prototype-test | @service.designer + @user.researcher | TS- → EV-, AS- |
 
 ## Ask the author
 
 1. Which artefact? Who fills it in, and who reads it next?
-2. Which sections must it have? (Offer the bimstack model's sections as a starting list, translated to IDs.)
+2. Which sections must it have?
 3. Which fields are required, and which IDs must each row cite?
 4. What makes it "done"? (Becomes the template's acceptance checklist.)
 5. What is the filled-in file called? It is saved under `project-context/1.discover/` (Define-facing templates: `project-context/2.define/`).
