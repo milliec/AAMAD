@@ -105,7 +105,19 @@ Mark each `pass`, `fail (line)`, or `n/a`.
 | Templates | `.cursor/templates/discover-<artefact>-template.md` |
 | Skills | `.cursor/skills/<skill-name>/SKILL.md` (+ `reference.md`) |
 | Personas | `.cursor/agents/user-researcher.md`, `.cursor/agents/service-designer.md`; extend `.cursor/agents/product-mgr.md` |
-| Discover outputs in a project | `TODO(author):` e.g. `project-context/0.discover/`. Note `project-context/0.review/` is already used by brownfield. |
+| Discover outputs in a project | `project-context/1.discover/` |
+
+### Phase folders (decided: renumbered)
+
+| Phase | Folder |
+|---|---|
+| Review (brownfield only, unchanged) | `project-context/0.review/` |
+| Discover (new) | `project-context/1.discover/` |
+| Define | `project-context/2.define/` (was `1.define/`) |
+| Build | `project-context/3.build/` (was `2.build/`) |
+| Deliver | `project-context/4.deliver/` (was `3.deliver/`) |
+
+Write the new names in every Discover file. Until the framework rename lands, existing personas, rules, templates and code still say `1.define/`, `2.build/`, `3.deliver/`. Do not edit those files from these skills. If a draft must point at a Define, Build or Deliver file, use the new name and add `TODO(author): rename pending`.
 
 After any change under `.cursor/`, `python scripts/update_bundle.py` must be run before committing.
 

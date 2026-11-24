@@ -21,7 +21,7 @@ Copy the layout of an existing persona, e.g. `.cursor/agents/product-mgr.md`: a 
 |---|---|---|
 | `agent` | name, id, one-line role | `id: user-researcher`; role: research assistant |
 | `instructions` | standing behaviour, one line each | "Wait for the participants log before synthesis." |
-| `actions` | the `*commands` it answers, each with its output path | `plan-research # → <Discover folder>/research-plan.md` |
+| `actions` | the `*commands` it answers, each with its output path | `plan-research # → project-context/1.discover/research-plan.md` |
 | `inputs` | files it reads | templates, rules, participants log |
 | `outputs` | files it writes | research plan, evidence log, needs register |
 | `prohibited-actions` | hard "never" lines | "Recruit participants or decide consent." |
@@ -39,7 +39,7 @@ Copy the layout of an existing persona, e.g. `.cursor/agents/product-mgr.md`: a 
 
 Offer these from the agreed decisions; the author confirms each.
 
-- **@product-mgr (extend):** Discover actions for problem statement + discovery goal, business goals, success measures (OUT- with M-, leading and lagging), and the go/pivot/stop gate with the operator. Define: every story cites at least one UN-; refuse a story without one. Add the gate file as a required input to `*create-prd`. Keep existing brownfield instructions untouched.
+- **@product-mgr (extend):** Discover actions for problem statement + discovery goal, business goals, success measures (OUT- with M-, leading and lagging), and the go/pivot/stop gate with the operator. Define: every story cites at least one UN-; refuse a story without one. Add the gate file (`project-context/1.discover/…`) as a required input to `*create-prd`. Keep existing brownfield instructions untouched. Existing `1.define/` paths in `product-mgr.md` change only with the framework rename, not here.
 - **@user.researcher (new):** research assistant. Drafts research plan (RP- → AS-), screener, discussion guide, consent/GDPR notes; affinity clustering (TH-); synthesis (UN-, PP-, EV-); runs prototype test sessions (TS-) with the service designer. Waits for the participants log (P- pseudonyms only) and anonymised transcripts. Refuses synthesis without consent for each cited P-.
 - **@service.designer (new):** journey maps (SERVICE, STAGE), service blueprints (frontstage/backstage, channels, touchpoints), hard vs soft constraints, opportunities (OP- → OUT-, relies on AS-), throwaway prototypes testing the riskiest AS-.
 

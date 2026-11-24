@@ -41,7 +41,7 @@ Follow the shape of existing AAMAD templates (see `.cursor/templates/prd-templat
 2. Which sections must it have? (Offer the bimstack model's sections as a starting list, translated to IDs.)
 3. Which fields are required, and which IDs must each row cite?
 4. What makes it "done"? (Becomes the template's acceptance checklist.)
-5. Where is the filled-in file saved? (`TODO(author)` if the Discover output folder isn't decided.)
+5. What is the filled-in file called? It is saved under `project-context/1.discover/` (Define-facing templates: `project-context/2.define/`).
 
 ## Draft shape
 

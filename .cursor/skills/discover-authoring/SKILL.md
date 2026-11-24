@@ -23,7 +23,7 @@ Read [reference.md](reference.md) before drafting. It holds the agreed decisions
 | 3 | Templates for Discover artefacts | [write-discover-template](../write-discover-template/SKILL.md) |
 | 4 | Discover skills, adapted from bimstack | [write-discover-skill](../write-discover-skill/SKILL.md) |
 | 5 | Personas (six-part anatomy) | [write-persona](../write-persona/SKILL.md) |
-| 6 | Wiring: crew overview, epics index, `aamad.config.yml`, go/stop gate as a required PRD input | `TODO(author):` no skill yet; do by hand with the agent |
+| 6 | Wiring: crew overview, epics index, `aamad.config.yml`, go/stop gate as a required PRD input, phase-folder rename (see reference.md) | `TODO(author):` no skill yet; do by hand with the agent |
 | 7 | Dry run on a small real problem; check one story traces back to a quote | `TODO(author):` no skill yet |
 
 Work in order. A later step may cite only IDs and files that an earlier step has defined. If the author wants to skip ahead, say which earlier file is missing and leave a `TODO(author):` where it is needed.
