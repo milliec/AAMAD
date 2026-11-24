@@ -76,7 +76,7 @@ Mark each `pass`, `fail (line)`, or `n/a`.
 - [ ] A US- is in the team's words, has AC-, and cites at least one UN-. Needs and stories are many-to-many.
 - [ ] Opinions that did not come from users (stakeholders, team, the brief) are AS-, not UN-.
 
-**Outcomes** (Kate Tarling, Home Office 2017)
+**Outcomes**
 - [ ] An OUT- is an end result for users or the provider. It is not an output ("launch a portal"), a goal ("be digital first"), or a solution.
 - [ ] Each OUT- has at least one M-, marked leading or lagging.
 
@@ -124,5 +124,4 @@ After any change under `.cursor/`, `python scripts/update_bundle.py` must be run
 ## Sources
 
 - GOV.UK Service Manual, "Start by learning user needs": https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs
-- Kate Tarling, outcomes work at the Home Office (2017). `TODO(author):` add the exact link you want cited.
 - Research, mapping and prototyping craft principles drawn from service-design and user-research practice. See [../write-discover-skill/method-notes.md](../write-discover-skill/method-notes.md) for the suggested skills.
